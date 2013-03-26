@@ -1,0 +1,197 @@
+@CHARSET "ISO-8859-1";
+
+.top-navigation {
+	float: center;
+	padding: 10px;
+    font-family: Teen Light;
+	font-size: 12pt;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.top-navigation-row {
+	float: center;
+	text-align: center;
+	border-bottom: 1px solid gray;
+}
+
+.logo {
+	padding: 10px;
+	font-family: Teen Light;
+	font-size: 12pt;
+	color: black;
+}
+
+
+
+.logo-left {
+	float: center;
+	padding: 10px;
+	text-align: right;
+}
+
+.logo-right {
+	padding: 20px;
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+	color: #000000;
+	background: #4AB1F6;
+	background-image: url(images/top-left.png), url(images/top-right.png), url(images/bottom-left.png), url(images/bottom-right.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+.quote-title {
+	text-align: center;
+	text-decoration: underline;
+}
+.quote {
+	text-align: center;
+	font-style: italic;
+	
+}
+.quote-author {
+	margin-top: 10px;
+}
+
+.spacer {
+	padding: 5px;
+}
+
+a:hover {
+	color: #4AB2F6;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a.alt-hover:hover {
+	color: #A66EC6;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.faq-question {
+	float: left;
+	padding-top: 10px;
+    font-family: Teen Light;
+	font-size: 12pt;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+}
+
+.faq-answer-odd {
+	float: left;
+	padding: 10px;
+    font-family: Teen Light;
+	font-size: 12pt;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+    color: #000000;
+	background: #4AB1F6;
+	background-image: url(images/top-left.png), url(images/top-right.png), url(images/bottom-left.png), url(images/bottom-right.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+
+.faq-answer-even {
+	float: left;
+	padding: 10px;
+    font-family: Teen Light;
+	font-size: 12pt;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	background: #A66EC6;
+	background-image: url(images/top-left-alt.png), url(images/top-right-alt.png), url(images/bottom-left-alt.png), url(images/bottom-right-alt.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+.image-viewer-text {
+	margin: 20px;
+    float: center;
+	padding: 10px;
+    font-family: Teen Light;
+	font-size: 12pt;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	background: #A66EC6;
+	background-image: url(images/top-left-alt.png), url(images/top-right-alt.png), url(images/bottom-left-alt.png), url(images/bottom-right-alt.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.instructions-even {
+	float: center;
+	padding: 10px;
+    font-family: Teen Light;
+	font-size: 12pt;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+    color: #000000;
+	background: #4AB1F6;
+	background-image: url(images/top-left.png), url(images/top-right.png), url(images/bottom-left.png), url(images/bottom-right.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+.instructions-odd {
+	float: center;
+	padding: 10px;
+    font-family: Teen Light;
+	font-size: 12pt;
+	text-align: left;
+	text-decoration: none;
+    color: black;
+	background: #A66EC6;
+	background-image: url(images/top-left-alt.png), url(images/top-right-alt.png), url(images/bottom-left-alt.png), url(images/bottom-right-alt.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+.volunteer-text {
+	float: center;
+	padding: 10px;
+    font-family: Teen Light;
+	font-size: 12pt;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+    color: #000000;
+	background: #4AB1F6;
+	background-image: url(images/top-left.png), url(images/top-right.png), url(images/bottom-left.png), url(images/bottom-right.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+.mailto-text {
+	margin: 20px;
+    float: center;
+	padding: 10px;
+	font-weight: normal;
+    font-family: Teen Light;
+	font-size: 20;
+	text-align: center;
+	text-decoration: none;
+    color: black;
+	background: #A66EC6;
+	background-image: url(images/top-left-alt.png), url(images/top-right-alt.png), url(images/bottom-left-alt.png), url(images/bottom-right-alt.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+}
+
+
