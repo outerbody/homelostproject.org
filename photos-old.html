@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Home Lost Project</title>
+    
+    <meta name="title" content="Home Lost Project" />
+    <meta name="description" content="The Home Lost Project was started by two elementary students that wanted to do something to help the homeless in Pittsburgh." />
+    <meta name="keywords" content="Helping, Pittsburgh, Homeless, Charity, Volunteer, T-Shirt, Recycle" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="homelost-styles.css" />
+    
+    <!--  only required for the image viewer -->
+    <link rel="stylesheet" type="text/css" media="all" href="slideviewer.css" />
+    
+    <script src="scripts/jquery.js" type="text/javascript"></script>
+    <script src="scripts/jquery-easing.js" type="text/javascript"></script>
+    <script src="scripts/jquery-slideviewer.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        $(window).bind("load", function() {
+        $("div#homelost-images").slideView({
+        	    easeFunc: "easeInOutSine",
+        	    easeTime: 500,
+        	    uiBefore: true, //you can optionally draw the ui before the slider's images
+        	    toolTip: false, 
+        	    ttOpacity: 0.5 // ttOpacity can be 0.1 to 1.0
+        	}) 
+        });
+    </script>
+    
+</head>
+<body>
+
+  <center> 
+  <table width="75%" border="0">
+  
+    <tr class="top-navigation-row"> <!--  top navigation row -->
+      <td colspan="2" class="top-navigation-row">
+      <a href="index.html" class="top-navigation">Home</a>&nbsp;<span class="top-navigation">|</span>
+      <a href="about.html" class="top-navigation">About</a>&nbsp;<span class="top-navigation">|</span>
+      <a href="donate-shirt.html" class="top-navigation">Donate A T-shirt</a>&nbsp;<span class="top-navigation">|</span>
+      <a href="volunteer.html" class="top-navigation">Volunteer</a>&nbsp;<span class="top-navigation">|</span>   
+      <a href="blanket-instructions.html" class="top-navigation">Quilt Instructions</a>&nbsp;<span class="top-navigation">|</span>
+      <a href="photos.html" class="top-navigation">Photo Album</a>&nbsp;
+      <td>
+    </tr>
+    
+    <tr class="spacer"> <!--  here for spacing -->
+      <td colspan="2">&nbsp;</td>
+    </tr>
+
+    <tr> <!--  image viewer row -->
+      <td colspan="2" class="image-viewer-text">
+          Here are some photos of our activities.  Please join our <a href="https://www.facebook.com/pages/HomeLost-Project/424900640907233">facebook site</a> for up to the date information and photos.
+          <P> 
+          <center>
+        <div id="homelost-images" class="svw">
+        <ul>
+            <li><img height="384" width="512" alt="Quilt Sample"  src="images/blanket-sample.JPG" /></li>
+            <!--  not a good orientation
+            <li><img height="512" width="384" alt="Cutting Squares"  src="images/cutting-squares.JPG" /></li>
+             -->
+            <li><img height="384" width="512" alt="Presenting to the Class"  src="images/presenting1.JPG" /></li>     
+            <li><img height="384" width="512" alt="Presenting to the Class"  src="images/presenting2.JPG" /></li>
+            <li><img height="384" width="512" alt="Annie and Griffin with Dr. Rowe"  src="images/girls-with-drrowe.JPG" /></li>
+            <li><img height="384" width="512" alt="Annie and Griffin at the Woods Street Commons"  src="images/wood-street-common2.JPG" /></li>
+            <li><img height="384" width="512" alt="Annie and Griffin at the Woods Street Commons"  src="images/wood-street-common3.JPG" /></li>
+            <li><img height="384" width="512" alt="Annie and Griffin at the Woods Street Commons"  src="images/wood-street-common5.JPG" /></li>
+            <li><img height="384" width="512" alt="CHS Sew-In"  src="images/chs-sew-in.jpg" /></li>
+            <li><img height="384" width="512" alt="CHS Sew-In"  src="images/chs-sew-in2.jpg" /></li>
+            <li><img height="384" width="512" alt="CHS Youth Ally Award"  src="images/chs-youth-ally-award.jpg" /></li>
+            <li><img height="384" width="512" alt="United Way Sew-In"  src="images/uw-sew-in.jpg" /></li>
+            <li><img height="384" width="512" alt="Cut T-Shirts"  src="images/cut-tshirts.jpg" /></li>
+            <li><img height="384" width="512" alt="Herald Article"  src="images/herald-article.jpg" /></li>
+       
+        </ul>
+        </div> 
+        </center>
+      </td>
+    <tr>
+    
+  </table>
+  </center>
+
+</body>
+</html>
